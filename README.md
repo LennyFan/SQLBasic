@@ -33,16 +33,5 @@ where score between 0 and 99
 ```
 
 FROM
-```sql
-# and
-where attribute1 == "Lenny" and attribute2 ==  "Test"
-# or
-where attribute1 == "Lenny" or attribute2 ==  "Test"
-# have a but not b
-where attribute1 == "Lenny" not attribute2 ==  "Test"
-# between 
-# 0 <= a <= 99
-where score between 0 and 99
-```
 
 
