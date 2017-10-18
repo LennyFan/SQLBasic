@@ -34,4 +34,9 @@ where score between 0 and 99
 
 FROM
 
-
+```sql
+# product axb
+SELECT * from a, b
+> retur all combination of a and b
+#
+```
