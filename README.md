@@ -62,3 +62,20 @@ String Opeartions
 
 
 
+Having
+
+
+***
+
+**Update entry value**
+```sql
+Update table
+set a = '' where condition;
+
+update table
+set a = CASE
+    when (a in "" / a = "") then ___
+    when (a in "" / a = "") then ___
+    else ''
+end
+```
