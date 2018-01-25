@@ -46,7 +46,7 @@ where a.attribute_in_A = b.attribute_in_B
 ```
 
 as
-```sql
+```Mysql
 # replace column name
 SELECT A as a
 from B as b, C as c
