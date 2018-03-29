@@ -87,7 +87,7 @@ end
 
 ***
  
-SparkSQL
+## SparkSQL
 
 ```python
 ## create spark dataframe
