@@ -83,3 +83,32 @@ set a = CASE
     else ''
 end
 ```
+
+
+***
+ 
+SparkSQL
+
+```python
+## create spark dataframe
+sqdf = spark.createDataFrame(....)
+
+## read 
+# spark.read.datatype()
+df = spark.read.csv() 
+df = spark.read.json()
+
+df.show()
+
+## basic structure
+# in dataframe
+df.select('colum').show()
+
+# in sql lenguage
+df.createOrReplaceTempView("df")
+sqlDF = spark.sql("SELECT column FROM df")
+sqlDF.show()
+ 
+## write
+df.write.datatype()
+```
