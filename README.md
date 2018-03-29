@@ -3,7 +3,11 @@
 ```sql
 SELECT # select the attributes
 FROM # from relations/tables
+JOIN ON # combine two table
 WHERE # add th condition
+GROUP
+ORDER
+LIMIT # data length
 ```
 
 
